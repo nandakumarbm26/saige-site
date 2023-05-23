@@ -1,0 +1,33 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [ {
+      "source": "/",
+      "destination": "/index.html"
+     },{
+      "source": "/blogs",
+      "destination": "/blogs.html"
+     },{
+      "source": "/blog",
+      "destination": "/blog.html"
+     },{
+      "source": "/platform",
+      "destination": "/platform.html"
+     },{
+      "source": "/contact",
+      "destination": "/contact.html"
+     },
+     {
+      "source": "/aboutus",
+      "destination": "/aboutus.html"
+     }
+     ]
+     
+  },
+  "appAssociation": "AUTO"
+}

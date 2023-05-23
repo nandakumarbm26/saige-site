@@ -1,0 +1,33 @@
+{
+  "short_name": "Saigeware",
+  "name": "Saigware Technologies Pvt Ltd",
+  "icons": [
+    {
+      "src": "/images/icon/favicon-32.ico",
+      "sizes": "64x64 32x32 ",
+      "type": "image/x-icon"
+    },{
+      "src": "/images/icon/favicon-16.ico",
+      "sizes": "24x24 16x16 ",
+      "type": "image/x-icon"
+    },{
+      "src": "/images/icon/favicon-128.ico",
+      "sizes": "128x128 ",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/icon/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
